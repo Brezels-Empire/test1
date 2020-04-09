@@ -10,7 +10,7 @@ if (environment.production) {
 
 platformBrowserDynamic().bootstrapModule(AppModule);
 
-
+/*
 const button = document.querySelector('input');
 const paragraph = document.querySelector('p');
 
@@ -25,7 +25,7 @@ function updateButton() {
     paragraph.textContent = 'The machine is stopped.';
   }
 }
-
+*/
 
 /*
 Copyright Google LLC. All Rights Reserved.
