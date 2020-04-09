@@ -1,22 +1,97 @@
 <!DOCTYPE html>
-  <head>
-    <meta charset="utf-8" />
-    <title>Angular Getting Started</title>
-  </head>
-  <body>
-<form> 
-  <input type="button" value="Start machine">
-</form>
-<p>The machine is stopped.</p>
+ <!--<html xmlns="http://www.w3.org/1999/xhtml"> -->
+<head>
+    <title>RIS DESK</title>
 
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content="">
 
- <!-- Bootstrap is working -->
-<p1 class="text-danger">
-  <span class="sr-only">Danger: </span>
-  This action is not reversible
-</p1>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <link rel="apple-touch-icon" href="RIS_SMALL.png" />
 
-  </body>
+    <link rel="icon" href="RIS_SMALL.png" />
+    <meta name="msapplication-TileImage" content="RIS_SMALL.png">
+
+    <!-- application.css references bootstrap and font-awesome -->
+    <link href="lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="lib/fontawesome/css/all.min.css" rel="stylesheet" />
+    <link href="css/application.css" rel="stylesheet" />
+    <style>
+        .btn {
+            min-width: 185px;
+            margin-top: 5px;
+        }
+
+        .container > h3 {
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px whitesmoke solid;
+        }
+    </style>
+</head>
+<body>    
+    <div class="banner">
+        <!-- Slideout Menu Toggle
+        <a class="slide-menu-toggle-open"
+           title="More Samples">
+            <i class="fas fa-bars"></i>
+        </a>
+        -->  
+
+         <div class="title-bar">
+            <a href="./">
+                <img src="RIS_SMALL.png"
+                     style="height: 45px; float: left" />
+                <div style="float: left; margin: 4px 5px; line-height: 1.0">
+                    <i style="color: #0092d0; font-size: 0.9em; font-weight: bold;">Realty Information Systems</i><br />
+                    <i style="color: whitesmoke; font-size: 1.5em; font-weight: 600;">
+                        RisDesk
+                    </i>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <div id="MainView">
+        <div class="container">
+            <div class="page-header-text">
+               <i class="fas fa-list"></i>
+                Login ...
+            </div>
+
+            <p>
+                <a href="FIND_WORKORER_OWNER.wp"class="btn btn-primary">
+                   <i class="fas fa-info-circle"></i> Owner Login
+               </a>
+            </p>
+
+            <p>
+                <a href="FIND_WORKORER_MANAGER.wp"class="btn btn-primary">
+                   <i class="fas fa-info-circle"></i> Manager Login
+               </a>
+            </p>
+
+            
+            <p>
+                <a href="FIND_WORKORER_TENN.wp"class="btn btn-primary">
+                   <i class="fas fa-info-circle"></i> Tenant Login
+               </a>
+            </p>
+
+        </div>
+    </div>
+
+    <footer>
+        <a href="http://www.rissoft.com/" class="float-right">
+            <img src="RIS_SMALL1.png" />
+        </a>
+        <small>&copy; Realty Information Systems</small>
+    </footer>
+</body>
 </html>
 
 
