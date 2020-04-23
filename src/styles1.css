@@ -1,0 +1,281 @@
+
+#MainView {
+    margin-top: 70px;
+    width: 100%;       
+}
+
+.page-header-text {
+    font-size: 1.52em;    
+    color:  #0092d0;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #e1e1e1;
+}
+
+.banner {
+    background: #535353;
+    color: #e1e1e1;    
+    position: fixed;
+    opacity: .95;
+    top: 0;
+    left: 0;
+    padding-top: 6px;
+    height: 60px;    
+    width: 100%;
+    z-index: 10;
+    box-shadow: 3px 3px 8px #828282;
+}
+
+.title-bar {
+  float: left; 
+  margin: 4px 5px; 
+  line-height: 1.0;
+}
+
+.title-bar-icon {
+  height: 45px; 
+  float: left;
+}
+
+.title-bar1 {
+  padding: 20px 30px;
+  color: #0092d0;
+  font-size: 0.9em;
+  font-weight: bold;
+}
+
+.title-bar2 {
+  padding: 20px 30px;
+  color: whitesmoke;
+  font-size: 1.5em;
+  font-weight: 600;
+}
+
+
+
+/* Global Styles */
+
+/* 
+#MainView.fixed {
+    position: absolute;
+    left: 0;
+    top: 60px;
+    bottom: 0;
+    padding-top: 10px;
+    width: 100%;
+    z-index: 11;        
+    -webkit-overflow-scrolling: touch;
+}
+*/
+
+
+/*
+ {
+  font-family: 'Roboto', Arial, sans-serif;
+  color: #616161;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+router-outlet + *  {
+  padding: 0 16px;
+}
+*/
+
+/* Text */
+
+/*
+h1 {
+  font-size: 32px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+h1, h2 {
+  font-weight: lighter;
+}
+
+p {
+
+font-size: 14 px
+  
+}
+*/
+
+/*list-style-type: none;*/
+
+/*font-size: 14 px;*/
+
+/* Hyperlink */
+
+/*
+a {
+  cursor: pointer;
+  color: #1976d2;
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 0.8;
+}
+*/
+
+/* Input */
+
+/*
+input {
+  font-size: 14px;
+  border-radius: 2px;
+  padding: 8px;
+  margin-bottom: 16px;
+  border: 1px solid #BDBDBD;
+}
+
+label {
+  font-size: 12px;
+  font-weight: bold;
+  margin-bottom: 4px;
+  display: block;
+  text-transform: uppercase;
+}
+*/
+
+/* Button */
+
+/*
+.button, button {
+  display: inline-flex;
+  align-items: center;
+  padding: 8px 16px;
+  border-radius: 2px;
+  font-size: 14px;
+  cursor: pointer;
+  background-color: #1976d2;
+  color: white;
+  border: none;
+
+html {
+  font-family: 'helvetica neue', helvetica, arial, sans-serif;
+}
+
+body {
+  width: 800px;
+  margin: 0 auto;
+}
+
+h1, h2 {
+  font-family: 'Faster One', cursive;
+}
+
+*/
+
+/* header styles */
+
+/*
+h1 {
+  font-size: 4rem;
+  text-align: center;
+}
+
+header p {
+  font-size: 1.3rem;
+  font-weight: bold;
+  text-align: center;
+}
+*/
+
+/* section styles */
+
+/*
+section article {
+  width: 33%;
+  float: left;
+}
+
+section p {
+  margin: 5px 0;
+}
+
+section ul {
+  margin-top: 0;
+}
+
+h2 {
+  font-size: 2.5rem;
+  letter-spacing: -5px;
+  margin-bottom: 10px;
+}
+*/
+
+/*
+.banner.active {
+    color: white;
+    font-weight: bolder;
+}
+.banner nav {
+    display: inline-block;
+    margin-right: 3px;
+    padding: 4px;
+}
+
+.banner nav a, .banner nav input {
+    display: inline-block;
+    padding: 11px 6px 6px;
+    color: #eee;    
+    margin-top: 3px;
+    text-decoration: none;
+}
+
+.banner nav a img {
+    height: 24px;
+    vertical-align: top;
+}
+
+.banner nav a:hover {
+    color: white;
+    background: #767676;
+    text-decoration: none;
+    border-bottom: solid 4px silver;
+    border-radius: 2px;
+}
+
+.banner nav a.active, .banner nav a.selected {
+    color: white;
+    font-weight: bold;
+    border-bottom: solid 4px orange;
+    border-radius: 2px;
+}
+    .banner nav .dropdown a, .banner nav .dropdown a:hover {
+        border-bottom: none;        
+    }
+    .banner nav .dropdown a:hover {
+        background: #999;
+    }
+
+.banner-bottom {
+    position: fixed;
+    bottom: 0;
+    top: auto;
+    text-align: center;
+    padding-top: inherit;
+    height: 43px;
+    display: none;
+}
+
+.banner-bottom a {
+    margin: 0 20px;
+}    
+
+*/
